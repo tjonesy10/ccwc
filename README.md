@@ -1,4 +1,4 @@
-\# ccwc
+# ccwc
 
 
 
@@ -6,7 +6,7 @@ A small, cross-platform clone of the Unix `wc` command, implemented in Python as
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -18,43 +18,43 @@ It mirrors the core behavior of the Unix `wc` utility and supports both file inp
 
 This project focuses on:
 
-\- Command-line interface design
+- Command-line interface design
 
-\- File and stream handling
+- File and stream handling
 
-\- Reproducing real-world Unix tool behavior
-
-
-
-\## Features
+- Reproducing real-world Unix tool behavior
 
 
 
-\- Byte count (`-c`)
-
-\- Line count (`-l`)
-
-\- Word count (`-w`)
-
-\- Character count (`-m`)
-
-\- Default mode (`-l -w -c`)
-
-\- Reads from files or standard input
+## Features
 
 
 
-\## Requirements
+- Byte count (`-c`)
+
+- Line count (`-l`)
+
+- Word count (`-w`)
+
+- Character count (`-m`)
+
+- Default mode (`-l -w -c`)
+
+- Reads from files or standard input
 
 
 
-\- Python 3.10 or newer
-
-\- Windows, macOS, or Linux
+## Requirements
 
 
 
-\## Usage
+- Python 3.10 or newer
+
+- Windows, macOS, or Linux
+
+
+
+## Usage
 
 
 
@@ -63,6 +63,6 @@ Count bytes:
 ```bash
 
 python ccwc.py -c test.txt
-
+```
 
 
